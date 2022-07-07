@@ -127,8 +127,6 @@ We provide 4 different `operation modes`. You can choose one according to the fo
   python main.py -run_type predict
   ```
 
-**Tips: **
-
 **We provide the above files or models obtained during the lab, so we can directly run all the above operation modes**
 
 **Because the model exceeds the GitHub size limit and cannot be uploaded, please get the file through the following link and put it into the corresponding folder according to the Repository structure**
