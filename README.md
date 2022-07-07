@@ -77,9 +77,9 @@ We provide 4 different `operation modes`. You can choose one according to the fo
 
   - `dev`(default)
 
-    In this operation modes,the code will **divide original train data into train data and dev data**,then model will be **trained on train data and show the result on dev data**.Finally,the code will save the best model in `/model/best-model.pth`.
+    In this operation mode,the code will **divide original train data into train data and dev data**,then model will be **trained on train data and show the result on dev data**.Finally,the code will save the best model in `/model/best-model.pth`.
 
-    To run this operation modes,you can run following script on cmd:
+    To run this operation mode,you can run following script on cmd:
 
     ```
     python main.py -run_type train -train_type dev -dev_size 511
@@ -87,9 +87,9 @@ We provide 4 different `operation modes`. You can choose one according to the fo
 
   - `all`
 
-    In this operation modes,the code will **train the model on all original train data**.Finally,the code will save the best model in `/model/best_model_with_all_train.pth`.
+    In this operation mode,the code will **train the model on all original train data**.Finally,the code will save the best model in `/model/best_model_with_all_train.pth`.
 
-    To run this operation modes,you can run following script on cmd:
+    To run this operation mode,you can run following script on cmd:
 
     ```
     python main.py -run_type train -train_type all
@@ -97,21 +97,21 @@ We provide 4 different `operation modes`. You can choose one according to the fo
 
 - `test`
 
-  In this operation modes,the code will **show the result on dev data** with the model saved in `/model/best-model.pth`.You can **conduct ablation experiments** on this basis by reducing args `-text` and `-image`.
+  In this operation mode,the code will **show the result on dev data** with the model saved in `/model/best-model.pth`.You can **conduct ablation experiments** on this basis by reducing args `-text` and `-image`.
 
-  To run this operation modes with both text and image input,you can run following script on cmd:
+  To run this operation mode with both text and image input,you can run following script on cmd:
 
   ```
   python main.py -run_type test -text -image
   ```
 
-  To run this operation modes with just text input,you can run following script on cmd:
+  To run this operation mode with just text input,you can run following script on cmd:
 
   ```
   python main.py -run_type test -text
   ```
 
-  To run this operation modes with just image input,you can run following script on cmd:
+  To run this operation mode with just image input,you can run following script on cmd:
 
   ```
   python main.py -run_type test -image
@@ -119,9 +119,9 @@ We provide 4 different `operation modes`. You can choose one according to the fo
 
 - `predict`
 
-  In this operation modes,the code will **predict the test data** with the model saved in `/model/best_model_with_all_train.pth`,and save the results in `/data/result.txt`.
+  In this operation mode,the code will **predict the test data** with the model saved in `/model/best_model_with_all_train.pth`,and save the results in `/data/result.txt`.
 
-  To run this operation modes,you can run following script on cmd:
+  To run this operation mode,you can run following script on cmd:
 
   ```
   python main.py -run_type predict
