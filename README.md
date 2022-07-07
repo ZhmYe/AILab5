@@ -1,6 +1,6 @@
 # Artificial Intelligence Lab5
 
-This is the code I wrote in Lab5 of `Artificial Intelligence` which is  a professional compulsory course of `ECNU DaSE`.
+This is the code I wrote in Lab5 of Artificial Intelligence course.
 
 **Tips:  GPU is required**
 
